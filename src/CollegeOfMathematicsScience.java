@@ -4,5 +4,4 @@ public class CollegeOfMathematicsScience extends Colleges{
         collegeCode=20;
         collegeName="MathematicsScience";
     }
-
 }

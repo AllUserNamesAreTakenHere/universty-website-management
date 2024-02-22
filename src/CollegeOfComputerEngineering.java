@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public class CollegeOfComputerEngineering {
+public class CollegeOfComputerEngineering extends Colleges {
+    protected CollegeOfComputerEngineering(int collegeCode, String collegeName) {
+        super(collegeCode, collegeName);
+        collegeCode=23;
+        collegeName="ComputerEngineering";
+    }
 }
